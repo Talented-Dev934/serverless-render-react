@@ -19,5 +19,4 @@ function route(req, res) {
   var html = render({path, state})
   res({html})
 }
-
 exports.handler = arc.html.get(route)
