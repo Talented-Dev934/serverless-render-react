@@ -1,7 +1,6 @@
 var arc = require('@architect/functions')
 var render = require('@architect/shared/views')
 
-
 function route(req, res) {
   if (req.session.account) {
     var location = req._url('/')
