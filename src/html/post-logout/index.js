@@ -1,10 +1,10 @@
-var arc = require('@architect/functions')
+var arc = require("@architect/functions");
 
 function route(req, res) {
   res({
     session: {},
-    location: req._url('/')
-  })
+    location: req._url("/"),
+  });
 }
 
-exports.handler = arc.html.post(route)
+exports.handler = arc.html.post(route);
